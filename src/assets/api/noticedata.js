@@ -1,0 +1,33 @@
+export default [
+    {id:1, title:'자유글',content:'핵쟁이 박제합니다.',name:'2킬이최대업적',date:'2023-07-10',good:20},
+    {id:2, title:'자유글',content:'민속촌 핵쟁이 신고좀요',name:'서든은내인생',date:'2023-07-05',good:7},
+    {id:3, title:'자유글',content:'밀봉1개 팝니다 ㅍㅍ',name:'서든으로돈벌기',date:'2023-07-17',good:40},
+    {id:4, title:'자유글',content:'sp 팝니다 ㅍㅍㅍ',name:'서든러5437',date:'2023-06-10',good:550},
+    {id:5, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'게임중독자',date:'2023-08-20',good:70},
+    {id:6, title:'자유글',content:'모든 총기 티켓 필요하신분?',name:'어떻게잡아줄까',date:'2023-07-28',good:90},
+    {id:7, title:'자유글',content:'서든어택 노잼게임 ',name:'킬뎃40퍼',date:'2023-09-15',good:330},
+    {id:8, title:'자유글',content:'배그하고싶다.',name:'서든못함',date:'2023-05-15',good:230},
+    {id:9, title:'자유글',content:'볼링치고싶다 200점넘겨보고싶다',name:'볼링고수',date:'2023-05-12',good:570},
+    {id:10, title:'자유글',content:'핵쟁이 박제합니다.',name:'KHJ',date:'2023-07-9',good:120},
+    {id:11, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'KHJ',date:'2023-07-9',good:20},
+    {id:12, title:'자유글',content:'sp 팝니다 ㅍㅍㅍ',name:'KHJ',date:'2023-07-9',good:10},
+    {id:13, title:'자유글',content:'서든어택 노잼게임 ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:14, title:'자유글',content:'핵쟁이 박제합니다.',name:'KHJ',date:'2023-07-9',good:20},
+    {id:15, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:16, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'KHJ',date:'2023-07-9',good:10},
+    {id:17, title:'자유글',content:'sp 팝니다 ㅍㅍㅍ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:18, title:'자유글',content:'서든어택 노잼게임 ',name:'KHJ',date:'2023-07-9',good:20},
+    {id:19, title:'자유글',content:'핵쟁이 박제합니다.',name:'KHJ',date:'2023-07-9',good:120},
+    {id:20, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:21, title:'자유글',content:'sp 팝니다 ㅍㅍㅍ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:22, title:'자유글',content:'핵쟁이 박제합니다.',name:'KHJ',date:'2023-07-9',good:120},
+    {id:23, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'KHJ',date:'2023-07-9',good:10},
+    {id:24, title:'자유글',content:'sp 팝니다 ㅍㅍㅍ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:25, title:'자유글',content:'핵쟁이 박제합니다.',name:'KHJ',date:'2023-07-9',good:120},
+    {id:26, title:'자유글',content:'파마스 노블 삽니다ㅅㅅ',name:'KHJ',date:'2023-07-9',good:120},
+    {id:27, title:'자유글',content:'sp 팝니다 ㅍㅍㅍ',name:'KHJ',date:'2023-07-9',good:20},
+    {id:28, title:'자유글',content:'핵쟁이 박제합니다.',name:'KHJ',date:'2023-07-9',good:120},
+
+    //내용 중간에 \n 넣으면 엔터처럼 밑으로 내려간다
+    // [ 김현진 볼링\n 개고수 ]  이런식으로
+]
