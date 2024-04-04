@@ -21,7 +21,7 @@ const App = () => {
   return (
     <>
         <GlobalStyle/> 
-          <Router basename="/SuddenAttack">
+          <Router basename="/">
           <Routes>
           <Route path="/" element={<Layout/> }>
           <Route index element={<Main/>}/>
