@@ -11,7 +11,7 @@ const ProductSearch = () => {
     const onSort = (e) =>{
         e.preventDefault()
         const {value} = e.target
-        dispatch(sortCart(value))
+        dispatch(sortCart(value)) //
     }
     
     const [text , setText]=useState('')
@@ -24,12 +24,12 @@ const ProductSearch = () => {
     const onSubmit = (e) => {
         e.preventDefault()
         if(!text) return
-        dispatch(searchCart(text))
+        dispatch(searchCart(text)) //
         textRef.current.focus()
     }
 
     useEffect(()=>{
-        dispatch(searchCart(''))
+        dispatch(searchCart('')) //
     },[])
 
     return (
