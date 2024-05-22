@@ -44,15 +44,6 @@ const NoticeList = () => {
                   }
            </tbody>
         </table>
-       {/*  <p><select name="" id="">
-                  <option value="">제목</option>
-                  <option value="">ㅈ</option>
-                  <option value="">ㅈ</option>
-                  <option value="">ㅈ</option>
-            </select>
-            <input type="text" name="" id="" placeholder='검색어를 입력하세요'/>
-            <button>검색</button>
-            </p> */}
         </NoticeListWrap>
     );
 };

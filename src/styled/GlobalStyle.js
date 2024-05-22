@@ -22,6 +22,9 @@ const GlobalStyle = createGlobalStyle`
   .main { width: 100%; }
   .main h2 { text-align: center; font-size: 40px;  margin-bottom: 80px; }
   button { border:none; cursor: pointer;  }
+  @media all and (max-width:479px){
+    .inner{width:100%;}
+  }
 `
 
 export default GlobalStyle;

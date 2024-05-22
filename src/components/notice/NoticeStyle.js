@@ -21,25 +21,9 @@ export const NoticeListWrap  = styled.div`
 
 } 
 
-@media (max-width:478px) {
-  
-    thead{ 
-        tr{
-            th{width:70px;}
-        }
-    }
-    th,  td{ height: 45px; vertical-align: middle; 
-        border: 1px solid #999; }
-    th { border-bottom: none; font-weight: 700;  }  
-
-    td{ text-align: center;
-        &:nth-child(2){ text-align: left; padding-left: 20px; } 
-    }  
-    p{
-        width:100%;
-    }
-
-    
+@media (max-width:479px) {
+  width:98%;
+    th,  td{ font-size:10px;}
 }
 
 `
@@ -78,7 +62,25 @@ export const NoticeDetailWrap = styled.div`
     button {  width: 200px; height: 50px; background: #000; color:#fff; cursor: pointer; border:none ; }
 
 
-    @media (max-width:478px) {
-    
+    @media (max-width:479px) {
+        width:100%;
+        .inner { padding:0;}
+    h2 {margin:100px 0 100px; }
+
+    .con {  
+            width:96%;
+        font-size: 15px; 
+       h3 {
+        width:100%;
+        font-size: 15px;  padding-bottom : 15px; padding-left: 15px;
+        
+    }
+       .txt {
+        font-size:15px; 
+       }
+    }
+    button {  width: 100px; }
+
+
     }
 `

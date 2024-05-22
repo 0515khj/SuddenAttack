@@ -16,7 +16,7 @@ background:#000;
       position: absolute; right: 150px; top: 10px;
       color:blue;
     }
-    @media all and (max-width:478px) {
+    @media all and (max-width:479px) {
         .inner { height:80px; }
         h1{
         a{
@@ -66,10 +66,10 @@ export const NavWrap = styled.nav`
     }
 }
 @media all and (max-width:478px) {
-    .go{ position:absolute; left:17%; top:-35px; width:50px; height:25px;
+    .go{ position:absolute; right:-15px; top:-35px; width:50px; height:25px;
         font-size:10px;
     }
-    &.nav{position:absolute; left:8% ;top:70%;
+    &.nav{position:absolute; right:8% ;top:70%;
         ul{
             li{
                 margin-left: 10px;
@@ -99,7 +99,7 @@ export const TopMenu  = styled.ul`
     }
     @media all and (max-width:478px) {
     &.top-menu {
-        position:absolute; left:14%;
+        position:absolute; right:14%;
         li{
             a{
                 font-size:10px;

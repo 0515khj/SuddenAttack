@@ -14,7 +14,6 @@ margin-bottom:30px; position:relative;
  }
 
  @media (max-width:478px) {
-    width:390px;
     form {
     display: flex;
     justify-content: space-between;
