@@ -26,9 +26,6 @@ export const authSliceSlice = createSlice({
         state.authed = false 
     },
     singup:( state, action ) => {
-      //const { email, tel, username, password } = action.payload
-      // state.dataList = [ ...state.dataList, { id:no++, email:email, tel, username, password }]
-
       state.dataList = [ ...state.dataList, { id:no++, ...action.payload }]
     }
   },

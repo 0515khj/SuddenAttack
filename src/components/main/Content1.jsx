@@ -25,7 +25,7 @@ const Content1 = () => {
         switch (category) {
             case '게시판':
                 setData([
-                    <Link to={"/notice"}>핵쟁이 박제합니다 </Link>,
+                    <Link to={"/notice"}>핵쟁이 박제합니다</Link>,
                     <Link to={"/notice"}>밀봉1개 팝니다</Link>,
                     <Link to={"/notice"}>파마스 노블 삽니다</Link>,
                     <Link to={"/notice"}>볼링 치고 싶다</Link>,
@@ -71,7 +71,7 @@ const Content1 = () => {
                         
                         <ul>
                             {data.map((item, idx) => (
-                                <li key={idx}>{item}</li>
+                                <li key={idx}><p>{item}</p></li>
                             ))}
                         </ul>
 
@@ -89,7 +89,8 @@ const Content1 = () => {
                             <strong>218</strong><p>건</p>
                         </div>
                         <div className="con23">
-                            <em className="con231">유죄</em><p className="con232">87</p>  <em className="con233">무죄</em><p className="con234">158</p>
+                            <em className="con231">유죄</em><p className="con232">87</p>
+                            <em className="con233">무죄</em><p className="con234">158</p>
                         </div>
                         <div className="con24">
                             <p>12월 17일(일) 진행된</p>
@@ -110,6 +111,7 @@ const Content1 = () => {
                     </div>
                     <div className="con4">
                                 <h3>GM 이야기</h3>
+                                <div className="con4all">
                                 <div className="con41">
                                     <img src="./images/visual3.jpg" alt="" />
                                     <p><strong>12.21</strong><span> 축복의 가든</span></p>
@@ -117,6 +119,7 @@ const Content1 = () => {
                                 <div className="con42">
                                     <img src="./images/visual4.jpg" alt="" />
                                     <p><strong>12.07</strong><span> 2023 파이널 시즌</span></p>
+                                </div>
                                 </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ background:#000;
     .inner { height:120px; }
     h1 {
         position:absolute; left:0; top:50%; transform: translateY(-50%); 
-        img{ background-color:#000; width:150px; }
+        img{ background-color:#000; }
         a {
             img {
                 width:180px;
@@ -17,15 +17,21 @@ background:#000;
       color:blue;
     }
     @media all and (max-width:478px) {
-        .inner{height:120px;}
-        
+        .inner { height:80px; }
+        h1{
+        a{
+            img{width: 100px;}
+        }
+        }
     }
 `
 
 
 export const NavWrap = styled.nav`
     position: relative;
-    .go { width:100px; height:50px; text-align:center; line-height:2.5; border-radius:10px; color:#fff; font-size:18px; cursor: pointer; transition:0.3s;
+    .go { width:100px; height:50px; text-align:center; 
+        line-height:2.5; border-radius:10px; color:#fff; 
+        font-size:18px; cursor: pointer; transition:0.3s;
         position:absolute; right:-160px; top:-10px;
         border: 1px solid #fff;
         &:hover{color:tomato;}
@@ -59,6 +65,21 @@ export const NavWrap = styled.nav`
         }
     }
 }
+@media all and (max-width:478px) {
+    .go{ position:absolute; left:17%; top:-35px; width:50px; height:25px;
+        font-size:10px;
+    }
+    &.nav{position:absolute; left:8% ;top:70%;
+        ul{
+            li{
+                margin-left: 10px;
+                a{
+                    font-size:10px;
+                }
+            }
+        }
+    }
+    }
 `
 
 
@@ -76,6 +97,15 @@ export const TopMenu  = styled.ul`
             }
         }
     }
-    
+    @media all and (max-width:478px) {
+    &.top-menu {
+        position:absolute; left:14%;
+        li{
+            a{
+                font-size:10px;
+            }
+        }
+    }
+    }
 
 `

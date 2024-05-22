@@ -7,7 +7,9 @@ background: #efefef;
             .con1 {margin-right:100px;
                 ul{
                     li{
-                        border-bottom: 1px solid #dcdcdc;
+                        p{
+                            border-bottom: 1px solid #dcdcdc;
+                        }
                         font-size:17px;
                         padding:5px;
                     }
@@ -112,6 +114,66 @@ background: #efefef;
 
             }
         }
+    }
+    @media (max-width:478px) {
+        .inner {
+            width:100%;
+        .con-box { display:block; padding-left:45px;
+        .con1 {
+            h3{ font-size:25px;}
+            button{ width:80px; height:35px; 
+                     font-size:15px;
+                  }
+            ul{
+            li{font-size:15px;
+                p{width:250px;}
+                }
+              }
+            }
+            .con2 {margin-top: 50px;
+                .con2inner{
+                    h3{font-size:25px;}
+                }
+                .con22 {strong {font-size:40px;}} 
+                .con23 {.con233{&::after{right: 122px;}}}
+            }
+            .con3 { margin-top:50px;
+                    h3{font-size:25px;}
+                .con3pic{
+                    display:flex;
+                    img{width:150px;}
+                }
+                .con3inner { margin-top:20px; width:280px;
+                    display:flex;
+                    img{margin-right:5px; height:80px;}
+                    span{ color:#000; font-weight:500; font-size:15px;} 
+                    p{font-size:15px; color:#999; line-height:5;}
+                }
+                
+            }
+            .con4 {
+                margin-top:50px;
+                h3{font-size:25px;}
+                    .con4all{display:flex;}
+                .con41 {
+                    margin-right: 5px;
+                    img{width:150px; height: 100px;}
+                    p{
+                        strong{font-weight:700; margin-right: 5px;}
+                        span{font-size:13px;}
+                    }
+                }
+                .con42 {
+                    img{width:150px; height: 100px;}
+                    p{
+                        strong{font-weight:700; margin-right: 5px;}
+                        span{font-size:13px;}
+                    }
+                }
+
+                }
+    }
+}
     }
 
 `

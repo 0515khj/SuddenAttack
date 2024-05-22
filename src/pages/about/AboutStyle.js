@@ -4,6 +4,16 @@ export const AboutWrap = styled.div`
         background: #E0E0E0;
     .inner { padding:100px 0;  width: 1400px;}
     h2 { font-size:30px; font-weight:700;  margin-bottom:50px }
+
+
+    @media all and (max-width:478px) {
+        .inner { padding:0px;}
+            h2 { font-size:25px; font-weight:700; 
+                display:flex;
+                text-align:center; margin-left: 110px;
+                 margin-bottom:50px ;padding-top:10px;}
+
+    }
 `
 
 export const AboutListWrap=styled.div`
@@ -12,6 +22,13 @@ export const AboutListWrap=styled.div`
         flex-wrap:wrap;
         justify-content:space-between; 
         
+    }
+
+    @media (max-width:478px) {
+        ul{
+            width:400px;
+        }
+
     }
 
 `
@@ -35,6 +52,13 @@ li {width:450px;   margin-top: 25px; justify-content:space-between; background: 
            }
         }
         .heart { background: none; font-size:30px; position:absolute;right:10px; top:10px;}
+    }
+
+    @media (max-width:478px) {
+        li {width:390px;  }
+    .inner { height:220px;
+    }
+
     }
 
 `

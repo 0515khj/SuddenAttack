@@ -25,12 +25,12 @@ const NavBar = () => {
         <>
         <NavWrap className="nav">
             <ul>             
-                <li><Link to={"/about"}>CLAN</Link></li>
-                <li><Link to={"/product"}>MARKET</Link></li>
-                <li><Link to={"/notice"}>FORUM</Link></li>
-                <li><Link to={"/customer"}>CUSTOMER</Link></li>
+                <li><Link to={"/about"}>클랜</Link></li>
+                <li><Link to={"/product"}>마켓</Link></li>
+                <li><Link to={"/notice"}>게시판</Link></li>
+                <li><Link to={"/customer"}>고객문의</Link></li>
                 <li><Link to="/cart">
-                        Cart <span> {carts.length} </span>
+                        장바구니 <span> {carts.length} </span>
                     </Link> </li>               
             </ul>
             <p className="go" onClick={st} onMouseOver={onOn} onMouseOut={onOff}>{start ? "START":"게임시작"}
