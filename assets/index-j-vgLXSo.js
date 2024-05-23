@@ -441,7 +441,7 @@ background: #efefef;
                     }
                 }
                 h3{ font-size:20px;}
-                button{border: 1px solid #999; width:90px; height:30px; transition:0.3s;
+                button{border: 1px solid #999; width:90px; height:30px; transition:0.3s; color:#000;
                     &:hover {background: #37474F; color:#fff;}
                 }
             }
@@ -543,12 +543,11 @@ background: #efefef;
     }
     @media (max-width:478px) {
         .inner {
-            width:100%;
         .con-box { display:block; padding-left:45px;
         .con1 {
             h3{ font-size:25px;}
             button{ width:80px; height:35px; 
-                     font-size:15px;
+                     font-size:14px;
                   }
             ul{
             li{font-size:15px;
