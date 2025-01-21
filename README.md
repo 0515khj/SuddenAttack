@@ -11,10 +11,10 @@
 
 # 서든어택 사이트
 
-(로고 클릭시 배포 사이트로 이동)
 <a href="https://0515khj.github.io/SuddenAttack/#/" target="_blank">
 <img src="./public/images/logo2.jpg" width="150px" >
 </a>
+(로고 클릭시 배포 사이트로 이동)
 
 <br>
 <br>
