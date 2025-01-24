@@ -1,6 +1,6 @@
 # 🖥️ 서든어택 사이트 리뉴얼 프로젝트
 
-<a href="" target="_blank">
+<a href="https://0515khj.github.io/SuddenAttack/" target="_blank">
 <img src="./public/images/logo2.jpg" width="150px" >
 </a>
 
