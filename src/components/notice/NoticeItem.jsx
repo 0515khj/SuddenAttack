@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const NoticeItem = ( {item}) => {
-    const {id , title , good ,date,name , content} = item
+    const {title , good ,date,name , content} = item
     return (
         <tr>
             <td> {title}   </td>

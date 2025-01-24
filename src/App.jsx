@@ -15,7 +15,6 @@ import Customer from "./pages/customer/Customer";
 import CustomerDetail from "./components/customer/CustomerDetail";
 import CustomerAdd from "./components/customer/CustomerAdd";
 import CustomerEdit from "./components/customer/CustomerEdit";
- 
 
 const App = () => {
   return (
@@ -46,9 +45,6 @@ const App = () => {
           </Route>
           
           </Route>
-
-
-
           <Route path="*" element={<Notfiles/>}/>
         </Routes>
      </Router>

@@ -53,11 +53,90 @@ article {
     .ck5{margin-left:110px;}    //합계
     .ck6{margin-left:190px;}    //선택
 }
+
+@media (max-width:479px){
+    width:100%;
+    .cart-list article { 
+        flex-direction: column; 
+        align-items: flex-start;
+        font-size: 16px; 
+    }
+    
+    .cart-list article img { width: 100px; }
+    
+    .cart-list article div { 
+        width: 100%; 
+        flex-direction: column;
+    }
+    
+    .cart-list article div h3 { 
+        margin-right: 0; 
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+    
+    .cart-list .del { 
+        width: 80px; 
+        height: 40px;
+    }
+    
+    .bottom { 
+        width:50%;
+        margin-top: 20px; 
+        font-size: 16px; 
+        position: static;
+        text-align: center;
+    }
+    
+    article {
+        .amount { 
+            width: 100%; 
+            margin-left: 0; 
+            margin-top: 10px;
+        }
+        
+        .discount {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        
+        .delivery { 
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        
+        .sum { 
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+    
+    .ft { 
+        button {
+            width: 100px; 
+            height: 40px; 
+            margin-top: 10px;
+        }
+    }
+
+    .topck {
+        margin-left: 0;
+        flex-direction: column;
+        padding-bottom: 10px;
+        
+        .ck1, .ck2, .ck3, .ck4, .ck5, .ck6 {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        
+        p { 
+            font-size: 16px; 
+        }
+    }
+}
 `
 
 export const CartEmptyWrap = styled.div`
-.cart-empty { text-align: center; margin-top: 200px; }
-.cart-empty h2 { font-size: 60px; margin-bottom: 100px;  }
-.cart-empty a {width: 250px; background: #fff; display: inline-block; height: 50px; line-height: 50px; color:#fff}
 
+   
 `

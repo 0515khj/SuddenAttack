@@ -27,11 +27,10 @@ const CartList = () => {
 
 
     return (
-        <>
-         <h2>C A R T</h2>
-         
-        <CartListWrap className="cart-wrap">
-           
+        <CartListWrap>
+            <div className="inner">
+            <h2>C A R T</h2>
+            
             <div className="topck">
             <input type="checkbox" name="" id="" />
              <p className="ck1">상품정보</p>
@@ -57,8 +56,8 @@ const CartList = () => {
             <button onClick={Delselction} >선택상품 삭제</button>
             <button onClick={out} >장바구니 비우기</button>
             </div>
+            </div>
         </CartListWrap>
-        </>
     );
 };
 
